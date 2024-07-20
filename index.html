@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aron's HTML/CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1 class="title">HTML Reference Guide</h1>
+        <h2>by Aron Ochsner</h2>
+    </header>
+    <section id="basicTags">
+        <h3 class="sectionTitle">Basic Tags</h3>
+        <table>
+            <thead>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;html&gt;</span></td>
+                    <td>HTML</td>
+                    <td>Creates an HTML document</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;head&gt;</span></td>
+                    <td>Head</td>
+                    <td>Sets off the title and other info that isn't displayed</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;body&gt;</span></td>
+                    <td>Body</td>
+                    <td>Sets off the visible portion of the document</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;title&gt;</span></td>
+                    <td>Title</td>
+                    <td>Puts name of the document in the title bar; when bookmarking pages, this is what is bookmarked</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="formatting">
+        <h3 class="sectionTitle">Formatting</h3>
+        <table>
+            <thead>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;p&gt;</span></td>
+                    <td>Paragraph</td>
+                    <td>Creates a new paragraph</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;br&gt;</span></td>
+                    <td>Line Break</td>
+                    <td>Inserts a line break (carriage return)</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;blockquote&gt;</span></td>
+                    <td>Block Quote</td>
+                    <td>Puts content in a quote -indents text from both sides</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;div&gt;</span></td>
+                    <td>Division</td>
+                    <td>Used to format block content with CSS</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;span&gt;</span></td>
+                    <td>Span</td>
+                    <td>Used to format inline content with CSS</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+        <section id="text">
+            <h3 class="sectionTitle">Text Tags</h3>
+            <table>
+                <thead>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">&lt;pre&gt;</span></td>
+                        <td>Preformatted Text</td>
+                        <td>Creates preformatted text</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;h1&gt; -> &lt;h6&gt;</span></td>
+                        <td>Section Heading</td>
+                        <td>Creates headlings -- H1 = largest, H6 = smallest</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;strong&gt;</span></td>
+                        <td>Strong Importance</td>
+                        <td>Creates bold text</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;em&gt;</span></td>
+                        <td>Emphasis</td>
+                        <td>Creates italicized text</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;code&gt;</span></td>
+                        <td>Inline Code</td>
+                        <td>Used to indicate text is computer code, usually uses monospace font</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;cite&gt;</span></td>
+                        <td>Citation</td>
+                        <td>Creates a citation, usually in italics</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;address&gt;</span></td>
+                        <td>Contact Address</td>
+                        <td>Creates address section, usually in italics</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+    <section id="lists">
+        <h3 class="sectionTitle">Lists</h3>
+        <table>
+            <thead>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;ul&gt;</span></td>
+                    <td>Unordered List</td>
+                    <td>Creates and unordered list</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;ol&gt;</span></td>
+                    <td>Ordered List</td>
+                    <td>Creates an ordered list</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;li&gt;</span></td>
+                    <td>List Item</td>
+                    <td>Encompasses each list item. Must be contained in a parent ordered list, unordered list, or menu</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;dl&gt;</span></td>
+                    <td>Description List</td>
+                    <td>Creates a description list</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;dt&gt;</span></td>
+                    <td>Description Term</td>
+                    <td>Specifies a term in a definition or description list</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;dd&gt;</span></td>
+                    <td>Description Details</td>
+                    <td>Provides a definition or related text associated with a Description Term</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="graphical">
+        <h3 class="sectionTitle">Graphical Elements</h3>
+        <table>
+            <thead>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;img src="URL&gt;</span></td>
+                    <td>Image</td>
+                    <td>Adds image, source attribute <strong>required</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+	<!-- Java scripts go at the end of the body element like this [<script src="index.js"></script>]-->
+  </body>
+</html>
